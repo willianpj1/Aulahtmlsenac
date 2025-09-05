@@ -9,11 +9,45 @@
 <body>
     <h1>Cadastro de pessoas</h1>
     <br>
-    <label for="">Nome:</label>
-    <input type="text" placeholder="Digite seu primeiro nome...">
+    <label for="nome">Nome:</label>
+    <input type="text" placeholder="Dididigite seu pipipiprimeiro nome..." id="nome" autofocus>
     <br>
     <br>
-    <label for="">Senha:</label>
+    <label for="sobrenome">Sobrenome:</label>
+    <input type="text" placeholder="Digite seu sobrenome..." id="sobrenome">
+    <br>
+    <br>
+    <label for="cpf">CPF:</label>
+    <input type="text" placeholder="Digite seu CPPPPF..." id="cpf">
+    <br>
+    <br>
+    <label for="data_nascimento">Data De nascimento:</label>
+    <input type="date" id="data_nascimento">
+    <br>
+    <br>
+    <label for="senha">Senha:</label>
     <input type="password" placeholder="Digita a senha..." id="senha" class="formatacao_bonita">
+    <br>
+    <br>
+    <label for="ativo">Ativo?</label>
+    <input type="radio" id="ativo" name="status" value="true" checked>Sim
+    <input type="radio" id="inativo" name="status" value="false">Não
+    <br>
+    <br>
+    <label>Seseseselecione o setotototor:</label>
+    <input type="checkbox" id="vendas" name="vendas" value="true" checked>Vendas
+    <input type="checkbox" id="compras" name="compras" value="true">Compras
+    <input type="checkbox" id="caixa" name="caixa" value="true">Caixa
+    <input type="checkbox" id="diretoria" name="diretoria" value="true">Diretoria
+    <br>
+    <br>
+    <label for="formacao">Formação:</label>
+    <select name="formacao" id="formacao">
+        <option value="1">Big Data Senior</option>
+        <option value="2">Analista de Dados Senior</option>
+        <option value="3">Desenvolvedor front-end</option>
+        <option value="4">Desenvolvedor back-end</option>
+        <option value="5">Desenvolvedor full-stack</option>
+    </select>
 </body>
 </html>
